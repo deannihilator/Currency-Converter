@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&family=Rubik+Wet+Paint&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">MY ₹ Converter<h1></h1>
+        </div>
+        <ul>
+            <li><a href="/">Source Code</a></li>
+            <li><a href="/">Connect</a></li>
+            <li><a href="/">Social</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>MY ₹ Converter presenting you<br> CURRENCY CONVERTER</h1>
+        <form action="/action.php" method="get">
+            <label for="currency">Choose a Quantity</label>
+            <input type="number" name="quantity" id="" placeholder="Enter Numbers">
+            <label for="currency">Choose a Currency</label>
+            <select name="currency" id="">
+                <option value="#">Select</option>
+                <option value="INR">INDIAN ₹Rupee</option>
+                <option value="USD">US Dollars</option>
+                <option value="EUR">EURO</option>
+            </select>
+
+            <input type="button" class="btn" value="Submit">
+        </form>
+        <div class="output">
+            <table>
+                <caption>Current Value Table</caption>
+                <thead>
+                    <tr>
+                        <th>CURRENCY</th>
+                        <th>CODE</th>
+                        <th>VALUE</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; All Rights Reserved in my Pocket.
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
